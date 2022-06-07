@@ -280,3 +280,20 @@ Experience and additonal info styles
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+
+/***********
+My own styles
+***********/
+.hint_i_think_so {
+    display: none;
+    color: var(--text-decoration-color);
+}
+
+.hint_i_think_so_show:hover .hint_i_think_so {
+    display: inline-block;
+}
+
+.contact-info__block .contact-info__item:hover .contact-info__item-icon path {
+    fill: var(--text-decoration-color);
+} 
