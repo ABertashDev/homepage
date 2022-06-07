@@ -1,10 +1,339 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Résumé</title>
+</head>
+
+<body>
+  <main>
+    <div class="resume">
+      <div class="container">
+        <div class="resume__block">
+          <h1 class="contact-info__header">Andrew Bertash</h1>
+          <h3 class="contact-info__sub-header">1C software development engineer</h3>
+
+          <div class="contact_info_container fh">
+
+            <div class="contact-info__block">
+              <a href="" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z" />
+                  </svg>
+                </div>
+                <span>09.10.1995 (26 y.o.)</span>
+              </a>
+              <a href="https://goo.gl/maps/CJwMSwQhe9rS1YeF8" rel="author" class="contact-info__item" target="_blank">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                    </path>
+                  </svg>
+                </div>
+                <span>Rivne, Ukraine</span>
+              </a>
+              <a href="tel:+380967283724" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                      d="M320 0H64C37.49 0 16 21.49 16 48v416C16 490.5 37.49 512 64 512h256c26.51 0 48-21.49 48-48v-416C368 21.49 346.5 0 320 0zM192 464c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 464 192 464z" />
+                  </svg>
+                </div>
+                <span>+38(096)-728-37-24</span>
+              </a>
+            </div>
+
+            <div class="contact-info__block contact-info__block--center">
+              <img class="contact-info__avatar" src="assets/avatar1.jpeg" alt="Avatar">
+            </div>
+
+            <div class="contact-info__block">
+              <a href="https://telegram.me/AndrewBertash" rel="author" class="contact-info__item" target="_blank">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path
+                      d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
+                  </svg>
+                </div>
+                <span>@AndrewBertash</span>
+              </a>
+              <a href="https://www.instagram.com/andrjuha_batman/" rel="author" class="contact-info__item"
+                target="_blank">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                  </svg>
+                </div>
+                <span>andrjuha_batman</span>
+              </a>
+              <a href="mailto:a.bertash.dev@gmail.com" rel="author" class="contact-info__item" target="_blank">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                      d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+                  </svg>
+                </div>
+                <span>a.bertash.dev@gmail.com</span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">
+              <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                </path>
+              </svg>
+            </div>
+            <p class="intro_text">Hi everyone! My name is Andrew Bertash and I'm a 1C software engineer with 6 years of
+              development experience.
+              I'm tired to be unrecognized developer and it is a reason why I'm here.
+              I want to switch to .NET technologies stack and become a part of the "true developers" community.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="resume__block">
+          <div class="skills">
+            <h3 class="skills__header">Strength</h3>
+            <p class="skills__text">I believe my strongest trait is my attention to detail. This trait has helped me in
+              this field of work.
+              I've always been a great team player. I'm good at keeping a team together and producing quality work in a
+              team environment. Also, I'm very comfortable with public speaking.</p>
+            <p class="skills__text">I'm an adaptable person. I work with different costumers, they have very different
+              requairments and expectations of me. I am able to adjust my possibilities and skills to meet each of their
+              needs.</p>
+            <p class="skills__text">I definitely like self-education. I am easy learning new technologies, frameworks,
+              tools, etc. I like interesting and tricky tasks. Especially I am enjoying to work with business processes
+              automation.</p>
+          </div>
+          <br>
+          <div class="skills">
+            <h3 class="skills__header">Weaknesses</h3>
+            <p class="skills__text">I guess, my weakness is bad work-life balance. I have perfect wife and son, but
+              sometimes I can't spend enough time with them. Because I have a lot of work. Maybe, for employer it's
+              good, but as for me - it is bad thing.
+              Realizing that this is a problem, I try to explain to my customers that I am only available during
+              business hours. Also in my free time I try not to answer work calls.</p>
+          </div>
+          <br>
+          <div class="skills">
+            <h3 class="skills__header">Hobbies</h3>
+            <p class="skills__text">On hot summer days, I like to fall out of the plane at an altitude of 4000 meters and fall at a speed of 300 km/h. And then a few minutes to calculate the direction to the landing point and successfully land. Yes, I'm skydiver.</p>
+            <p class="skills__text">At the same time, I'm volleyball and basketball player, snowboard rider.</p>
+            <p class="skills__text">My family separate all that things with me, support and makes me stronger. We enjoying to spend time together, travelling and have active rest.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="resume__block">
+          <div class="main-info fh">
+
+            <div class="experiences">
+              <h3 class="experiences__header">Experience</h3>
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">1 year (03.2021 – now)</span>
+                  <h3 class="experiences__company-header-name">Freelance projects, Rivne</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">1C software developer, architector, quality control
+                    engineer, project manager</span>
+                  <h3 class="experiences__company-project-name">Solutions for automated business-processes</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Agreement work with the customer</li>
+                    <li>Analyse and description requirements</li>
+                    <li>Implement trading equipment</li>
+                    <li>Code, test and debug solutions</li>
+                    <li>Technical support</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">2.5 years (08.2019 – now)</span>
+                  <h3 class="experiences__company-header-name">ERP Data Service Ltd., Rivne</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">1C software developer, architector, quality control
+                    engineer</span>
+                  <h3 class="experiences__company-project-name">Solutions for automated business-processes and API
+                    integrations</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Agreement work with the customer</li>
+                    <li>Analyse and description requirements</li>
+                    <li>Implement trading equipment</li>
+                    <li>Code, test and debug solutions</li>
+                    <li>Technical support</li>
+                    <li>Data exchange with sites</li>
+                    <li>Integrations using API</li>
+                    <li>Work at the exit</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">6 months (11.2018 - 08.2019)</span>
+                  <h3 class="experiences__company-header-name">Renome-Smart Ltd., Development department, Rivne</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">1C software developer, architector, quality control
+                    engineer</span>
+                  <h3 class="experiences__company-project-name">Solution for banking institutions</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Agreement work with the customer</li>
+                    <li>Analyse and description requirements</li>
+                    <li>Implement trading equipment</li>
+                    <li>Code, test and debug solutions</li>
+                    <li>Technical support</li>
+                    <li>Organization and support CI</li>
+                    <li>Integrations using API</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">3 years (01.2018 – 12.2020)</span>
+                  <h3 class="experiences__company-header-name">DropZone Boro, Kyiv</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">Main canopies packer</span>
+                  <h3 class="experiences__company-project-name">Skydiving club</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Packing main parachutes</li>
+                    <li>Repair skydiving gear</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">2.5 years (06.2016 – 10.2018)</span>
+                  <h3 class="experiences__company-header-name">Renome-Smart Ltd., ERP department, Rivne</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">1C software developer, architector, quality control
+                    engineer</span>
+                  <h3 class="experiences__company-project-name">Solutions for automated business-processes</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Agreement work with the customer</li>
+                    <li>Analyse and description requirements</li>
+                    <li>Implement trading equipment</li>
+                    <li>Code, test and debug solutions</li>
+                    <li>Technical support</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">2 years (05.2014 – 05.2016)</span>
+                  <h3 class="experiences__company-header-name">GRAND (itosvita), Rivne</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">Teacher/lecturer</span>
+                  <h3 class="experiences__company-project-name">IT courses for children</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Teaching children according to the program</li>
+                    <li>Demonstration and explanation of the material</li>
+                    <li>Checking the completion of tasks</li>
+                    <li>Communication with children and parents</li>
+                    <li>Maintaining documentation</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">5 years (01.2012 – 12.2017)</span>
+                  <h3 class="experiences__company-header-name">DropZone Voroniv, Rivne</h3>
+                </div>
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">Main canopies packer, flying cameraman, skydiving
+                    instructor</span>
+                  <h3 class="experiences__company-project-name">Skydiving and gliding</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Packing main parachutes</li>
+                    <li>Repair skydiving gear</li>
+                    <li>Making video movies for skydivers</li>
+                    <li>Conducting instruction for beginners and sportsmen</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="additional-info fv">
+              <div class="additional-info__education">
+                <h3 class="additional-info__education-header">Education</h3>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">2018</span>
+                  <p class="additional-info__education-university-name">SoftServe (course "Test automation with
+                    Python"), Rivne</p>
+                  <h3 class="additional-info__education-university-speciality">Automated tests for REST API service</h3>
+                </div>
+                <br>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">2017</span>
+                  <p class="additional-info__education-university-name">1C Ukraine</p>
+                  <h3 class="additional-info__education-university-speciality">Certifications 1C Professional</h3>
+                </div>
+                <br>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">2017</span>
+                  <p class="additional-info__education-university-name">Rivne State University of the Humanities</p>
+                  <h3 class="additional-info__education-university-speciality">Economic Cybernetics Bachelor’s Degree
+                    (Diploma with honours)</h3>
+                </div>
+                <br>
+                <div class="additional-info__education-university">
+                  <span class="additional-info__education-university-durability">2013</span>
+                  <p class="additional-info__education-university-name">School-lyceum of Kvasyliv</p>
+                  <h3 class="additional-info__education-university-speciality">Graduated Diploma with honours</h3>
+                </div>
+              </div>
+
+              <div class="additional-info__languages">
+                <h3 class="additional-info__languages-header">Languages</h3>
+                <p class="additional-info__languages-item">
+                  Ukrainian
+                </p>
+                <p class="additional-info__languages-item hint_i_think_so_show">
+                  English (A2+)
+                  <span class="hint_i_think_so">
+                    .. I think so ...
+                  </span>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+
 </html>
