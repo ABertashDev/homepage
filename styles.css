@@ -292,3 +292,15 @@ body {
 }
 
 /*********** Experience and additional info styles end ***********/
+
+
+
+/*********** 
+************ Additional styles start 
+***********/
+
+.contact-info__block .contact-info__item:hover .contact-info__item-icon path {
+    fill: var(--text-decoration-color);
+} 
+
+/*********** Additional styles end ***********/
