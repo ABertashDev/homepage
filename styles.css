@@ -61,7 +61,7 @@ ul li {
 .container {
     margin: 0 auto;
     padding: 0 auto;
-    max-width: 900px;
+    max-width: 1000px;
     display: flex;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -89,12 +89,12 @@ article {
 
 .container .left {
     background-color: var(--bg-color-dark);
-    min-width: 300px;
+    min-width: 350px;
     color: var(--secondary-text-color);
 }
 
 .avatar {
-    max-width: 300px; 
+    max-width: 350px; 
 }
 
 .contacts, .skills, .languages {
