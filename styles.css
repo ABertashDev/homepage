@@ -42,12 +42,13 @@ h3 {
     font-weight: 600;
     font-size: 20pt;
     border-bottom: 2px solid var(--primary-text-color);
-    margin: 10px 0 10px 0;
+    margin: 0px 0 15px 0;
 }
 
 h4 {
     font-weight: 600;
-    font-size: 13pt;
+    font-size: 12pt;
+    text-align: left;
 }
 
 a {
@@ -100,6 +101,7 @@ article {
 .contacts, .skills, .languages {
     font-size: 13pt; 
     font-weight: 200; 
+    margin-bottom: 30px;
 }
 
 .container .left h3 {
@@ -158,14 +160,22 @@ article {
 
 .container .right .wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
+.profile {
+    font-size: 11pt;   
+}
+
 .aside-left {
-    min-width: 150px;
-    font-size: 11pt;
-    
+    min-width: 170px;
+    max-width: 170px;
+    font-size: 10pt;   
+}
+
+.aside-right {
+    font-size: 11pt;   
 }
 
 .aside-left span {
