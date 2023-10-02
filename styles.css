@@ -44,6 +44,7 @@ h4 {
     font-weight: 600;
     font-size: 12pt;
     text-align: left;
+    white-space: pre-line;
 }
 
 a {
@@ -95,6 +96,7 @@ article {
 .container .left {
     background-color: var(--bg-color-dark);
     min-width: 350px;
+    max-width: 350px;
     color: var(--secondary-text-color);
 }
 
@@ -112,6 +114,7 @@ article {
     font-size: 13pt;
     font-weight: 200;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .container .left h3 {
@@ -196,7 +199,23 @@ article {
     font-style: italic;
 }
 
+.responsibilities {
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
+.responsibilities li{
+    margin-top: 3px;
+    list-style-type: square
+}
+
+.skills ul {
+    margin-left: 20px;
+}
+
+.skills ul li {
+    list-style-type: square
+}
 /*********** Right side styles end ***********/
 
 
