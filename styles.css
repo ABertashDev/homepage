@@ -106,6 +106,7 @@ article {
 
 .avatar {
     max-width: 350px;
+    margin-bottom: 20px;
 }
 
 .contacts,
@@ -215,6 +216,10 @@ article {
 
 .skills ul li {
     list-style-type: square
+}
+
+.item {
+    margin-bottom: 10px;
 }
 /*********** Right side styles end ***********/
 
